@@ -33,6 +33,6 @@
         <TextBlock Grid.Row="6" FontSize="20" Foreground="Orange" Margin="10,12.5,0,0.5">Password</TextBlock>
         <PasswordBox Name="passwordTextBlock" Grid.Row="6" BorderBrush="Orange" Margin="112,18.5,13,4.5" Background="LightGray"/>
         <Button Grid.Row="7" Height="40" Margin="28,29.5,167,18.5" Content="Back" Background="Orange" FontSize="14" Click="Button_Click"/>
-        <Button Grid.Row="7" Height="40" Margin="168,29.5,27,18.5" Content="Confirm" Background="Orange" FontSize="14"/>
+        <Button Grid.Row="7" Height="40" Margin="168,29.5,27,18.5" Content="Confirm" Background="Orange" FontSize="14" Click="Button_Click_1"/>
     </Grid>
 </Window>

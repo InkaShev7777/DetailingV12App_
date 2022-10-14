@@ -15,24 +15,23 @@ using System.Windows.Shapes;
 namespace DetailingV12App.View
 {
     /// <summary>
-    /// Логика взаимодействия для RegistrationWindow.xaml
+    /// Логика взаимодействия для ServicesWindow.xaml
     /// </summary>
-    public partial class RegistrationWindow : Window
+    public partial class ServicesWindow : Window
     {
-        public RegistrationWindow()
+        public ServicesWindow()
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void AddSrvices()
         {
-            this.Close();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            ServicesWindow servicesWindow = new ServicesWindow();
-            servicesWindow.ShowDialog();
+            for (int i = 0; i < 4; i++)
+            {
+                CustomControls.advtControl advt = new CustomControls.advtControl();
+                advt.Width = 20;
+                advt.Height = 20;
+                //this.Content_
+            }
         }
     }
 }

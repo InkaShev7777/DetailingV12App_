@@ -29,5 +29,12 @@ namespace DetailingV12App.View
             RegistrationWindow registrationWindow = new RegistrationWindow();
             registrationWindow.ShowDialog();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            //логика сравнения пароля и логина из бд!
+            ServicesWindow servicesWindow = new ServicesWindow();
+            servicesWindow.ShowDialog();
+        }
     }
 }
