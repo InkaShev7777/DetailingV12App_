@@ -15,19 +15,13 @@ using System.Windows.Shapes;
 namespace DetailingV12App.View
 {
     /// <summary>
-    /// Логика взаимодействия для EnterWindow.xaml
+    /// Логика взаимодействия для RegistrationWindow.xaml
     /// </summary>
-    public partial class EnterWindow : Window
+    public partial class RegistrationWindow : Window
     {
-        public EnterWindow()
+        public RegistrationWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            RegistrationWindow registrationWindow = new RegistrationWindow();
-            registrationWindow.ShowDialog();
         }
     }
 }

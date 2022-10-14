@@ -22,6 +22,6 @@
         <TextBlock Grid.Row="2" FontSize="20" Margin="10 10 0 0"  Foreground="White" Text="Password"></TextBlock>
         <PasswordBox  Grid.Row="2" Width="150" Height="30" Margin="100 0 0 0" FontSize="15"></PasswordBox>
         <Button Grid.Row="3" FontSize="20"  Foreground="White" Background="Transparent" BorderThickness="1" BorderBrush="Orange">Confirm</Button>
-        <Button Grid.Row="4" Foreground="Orange" Background="Transparent" >Registration</Button>
+        <Button Grid.Row="4" Foreground="Orange" Background="Transparent" Click="Button_Click" >Registration</Button>
     </Grid>
 </Window>
