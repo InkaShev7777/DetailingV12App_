@@ -23,15 +23,15 @@
         </Grid.RowDefinitions>
         <!--<TextBlock Grid.Row="1" FontSize="30" Foreground="White" Margin="62,0,0,43">Registrarion</TextBlock>-->
         <TextBlock Grid.Row="1" FontSize="20" Foreground="Orange" Margin="10 10 0 0">Name</TextBlock>
-        <TextBox Grid.Row="1" Margin="112,12,13,1" BorderBrush="Orange" Background="LightGray"/>
+        <TextBox Name="nameTextBlock" Grid.Row="1" Margin="112,12,13,1" BorderBrush="Orange" Background="LightGray"/>
         <TextBlock Grid.Row="2" FontSize="20" Foreground="Orange" Margin="10,10,0,3">Surname</TextBlock>
-        <TextBox Grid.Row="2" BorderBrush="Orange" Margin="112,14,13,5" Background="LightGray"/>
+        <TextBox Name="surNameTextBlock" Grid.Row="2" BorderBrush="Orange" Margin="112,14,13,5" Background="LightGray"/>
         <TextBlock Grid.Row="3" FontSize="20" Foreground="Orange" Margin="10,7,0,2">Telephone</TextBlock>
-        <TextBox Grid.Row="3" BorderBrush="Orange" Margin="112,13,13,8" Background="LightGray"/>
+        <TextBox Name="telephoneTextBlock" Grid.Row="3" BorderBrush="Orange" Margin="112,13,13,8" Background="LightGray"/>
         <TextBlock Grid.Row="5" FontSize="20" Foreground="Orange" Margin="10,12.5,0,3.5">Login</TextBlock>
-        <TextBox Grid.Row="5" BorderBrush="Orange" Margin="112,18.5,13,3.5" Background="LightGray"/>
+        <TextBox Name="loginTextBlock" Grid.Row="5" BorderBrush="Orange" Margin="112,18.5,13,3.5" Background="LightGray"/>
         <TextBlock Grid.Row="6" FontSize="20" Foreground="Orange" Margin="10,12.5,0,0.5">Password</TextBlock>
-        <PasswordBox Grid.Row="6" BorderBrush="Orange" Margin="112,18.5,13,4.5" Background="LightGray"/>
+        <PasswordBox Name="passwordTextBlock" Grid.Row="6" BorderBrush="Orange" Margin="112,18.5,13,4.5" Background="LightGray"/>
         <Button Grid.Row="7" Height="40" Margin="28,29.5,167,18.5" Content="Back" Background="Orange" FontSize="14" Click="Button_Click"/>
         <Button Grid.Row="7" Height="40" Margin="168,29.5,27,18.5" Content="Confirm" Background="Orange" FontSize="14"/>
     </Grid>
