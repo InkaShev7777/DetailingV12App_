@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DetailingV12App.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

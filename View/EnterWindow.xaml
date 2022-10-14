@@ -8,7 +8,7 @@
         Title="EnterWindow" Height="500" Width="300">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\Admin\Source\Repos\DetailingV12App_\Resource\mainFormIMG.jpeg"></ImageBrush>
+            <ImageBrush ImageSource="\\Mac\Home\Desktop\mainFormIMG.jpeg"></ImageBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="319*"></RowDefinition>

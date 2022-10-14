@@ -12,7 +12,7 @@
     </Window.Resources>
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\Admin\Source\Repos\DetailingV12App_\Resource\mainFormIMG.jpeg"></ImageBrush>
+            <ImageBrush ImageSource="\\Mac\Home\Desktop\mainFormIMG.jpeg"></ImageBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="303*"></RowDefinition>
