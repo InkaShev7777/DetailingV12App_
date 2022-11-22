@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DetailingV12App.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,13 @@ namespace DetailingV12App
         public MainWindow()
         {
             InitializeComponent();
+            enterButton.Click += EnterButton_Click;
+        }
+
+        private void EnterButton_Click(object sender, RoutedEventArgs e)
+        {
+            EnterWindow enterWindow = new EnterWindow();
+            enterWindow.ShowDialog();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

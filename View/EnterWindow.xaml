@@ -1,0 +1,27 @@
+﻿<Window x:Class="DetailingV12App.View.EnterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DetailingV12App.View"
+        mc:Ignorable="d"
+        Title="DetailingV12" Height="500" Width="300">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Admin\Source\Repos\DetailingV12App_\Resource\mainFormIMG.jpeg"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="319*"></RowDefinition>
+            <RowDefinition Height="58*"></RowDefinition>
+            <RowDefinition Height="57*"></RowDefinition>
+            <RowDefinition Height="50*"></RowDefinition>
+            <RowDefinition Height="50*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="1" FontSize="20" Margin="10 10 0 0" Foreground="White" Text="Login"></TextBlock>
+        <TextBox Grid.Row="1" Width="150" Height="30" Margin="100 0 0 0" FontSize="15"></TextBox>
+        <TextBlock Grid.Row="2" FontSize="20" Margin="10 10 0 0"  Foreground="White" Text="Password"></TextBlock>
+        <PasswordBox  Grid.Row="2" Width="150" Height="30" Margin="100 0 0 0" FontSize="15"></PasswordBox>
+        <Button Grid.Row="3" FontSize="20"  Foreground="White" Background="Transparent" BorderThickness="1" BorderBrush="Orange">Confirm</Button>
+        <Button Grid.Row="4" Foreground="Orange" Background="Transparent">Registration</Button>
+    </Grid>
+</Window>
