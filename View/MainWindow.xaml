@@ -21,6 +21,6 @@
         </Grid.RowDefinitions>
         <Button Grid.Row="1" Foreground="White" FontSize="25" BorderBrush="Black" BorderThickness="0">Enter</Button>
         <Button Grid.Row="2" Foreground="White" FontSize="25" BorderBrush="Black" BorderThickness="0">Settings</Button>
-        <Button Grid.Row="3" Foreground="White" FontSize="25" BorderBrush="Black" BorderThickness="0" Click="Button_Click">Exit</Button>
+        <Button Grid.Row="3" Foreground="White" FontSize="25" BorderBrush="Black" BorderThickness="0" Click="ExitButton_Click">Exit</Button>
     </Grid>
 </Window>

@@ -25,7 +25,13 @@ namespace DetailingV12App
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void EnterButton_Click(object sender, RoutedEventArgs e)
+        {
+            EnterWindow enterWindow = new EnterWindow();
+            enterWindow.ShowDialog();
+        }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
