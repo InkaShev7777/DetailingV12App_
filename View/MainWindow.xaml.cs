@@ -25,6 +25,7 @@ namespace DetailingV12App
         {
             InitializeComponent();
             enterButton.Click += EnterButton_Click;
+
         }
 
         private void EnterButton_Click(object sender, RoutedEventArgs e)
